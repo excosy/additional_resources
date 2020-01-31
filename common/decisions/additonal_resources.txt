@@ -1,5 +1,6 @@
 additional_resources = {
 	additional_resources_oil_temp = {
+		icon = oil
 		cost = 50
 		fixed_random_seed = no
 		complete_effect = {
@@ -20,13 +21,14 @@ additional_resources = {
 			}
 		}
 	}
-	additional_resources_aluminum_temp = {
+	additional_resources_aluminium_temp = {
+		icon = aluminium
 		cost = 50
 		fixed_random_seed = no
 		complete_effect = {
 			random_owned_state = {
 				add_resource = {
-					type = aluminum
+					type = aluminium
 					amount = 10
 				}
 			}
@@ -35,13 +37,14 @@ additional_resources = {
 		remove_effect = {
 			random_owned_state = {
 				add_resource = {
-					type = aluminum
+					type = aluminium
 					amount = 10
 				}
 			}
 		}
 	}
 	additional_resources_rubber_temp = {
+		icon = rubber
 		cost = 50
 		fixed_random_seed = no
 		complete_effect = {
@@ -63,6 +66,7 @@ additional_resources = {
 		}
 	}
 	additional_resources_tungsten_temp = {
+		icon = tungsten
 		cost = 50
 		fixed_random_seed = no
 		complete_effect = {
@@ -84,6 +88,7 @@ additional_resources = {
 		}
 	}
 	additional_resources_steel_temp = {
+		icon = steel
 		cost = 50
 		fixed_random_seed = no
 		complete_effect = {
@@ -105,6 +110,7 @@ additional_resources = {
 		}
 	}
 	additional_resources_chromium_temp = {
+		icon = chromium
 		cost = 50
 		fixed_random_seed = no
 		complete_effect = {
@@ -126,6 +132,7 @@ additional_resources = {
 		}
 	}
 	additional_resources_oil = {
+		icon = oil
 		cost = 100
 		fixed_random_seed = no
 		complete_effect = {
@@ -137,19 +144,21 @@ additional_resources = {
 			}
 		}
 	}
-	additional_resources_aluminum = {
+	additional_resources_aluminium = {
+		icon = aluminium
 		cost = 100
 		fixed_random_seed = no
 		complete_effect = {
 			random_owned_state = {
 				add_resource = {
-					type = aluminum
+					type = aluminium
 					amount = 10
 				}
 			}
 		}
 	}
 	additional_resources_rubber = {
+		icon = rubber
 		cost = 100
 		fixed_random_seed = no
 		complete_effect = {
@@ -162,6 +171,7 @@ additional_resources = {
 		}
 	}
 	additional_resources_tungsten = {
+		icon = tungsten
 		cost = 100
 		fixed_random_seed = no
 		complete_effect = {
@@ -174,6 +184,7 @@ additional_resources = {
 		}
 	}
 	additional_resources_steel = {
+		icon = steel
 		cost = 100
 		fixed_random_seed = no
 		complete_effect = {
@@ -186,6 +197,7 @@ additional_resources = {
 		}
 	}
 	additional_resources_chromium = {
+		icon = chromium
 		cost = 100
 		fixed_random_seed = no
 		complete_effect = {
@@ -198,6 +210,7 @@ additional_resources = {
 		}
 	}
 	additional_resources_manpower = {
+		icon = eng_blackshirt_march
 		cost = 100
 		complete_effect = {
 			add_manpower = 100000
