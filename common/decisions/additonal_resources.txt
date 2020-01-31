@@ -1,0 +1,206 @@
+additional_resources = {
+	additional_resources_oil_temp = {
+		cost = 50
+		fixed_random_seed = no
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 10
+				}
+			}
+		}
+		days_remove = 120
+		remove_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = -10
+				}
+			}
+		}
+	}
+	additional_resources_aluminum_temp = {
+		cost = 50
+		fixed_random_seed = no
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = aluminum
+					amount = 10
+				}
+			}
+		}
+		days_remove = 120
+		remove_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = aluminum
+					amount = 10
+				}
+			}
+		}
+	}
+	additional_resources_rubber_temp = {
+		cost = 50
+		fixed_random_seed = no
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 10
+				}
+			}
+		}
+		days_remove = 120
+		remove_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 10
+				}
+			}
+		}
+	}
+	additional_resources_tungsten_temp = {
+		cost = 50
+		fixed_random_seed = no
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 10
+				}
+			}
+		}
+		days_remove = 120
+		remove_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 10
+				}
+			}
+		}
+	}
+	additional_resources_steel_temp = {
+		cost = 50
+		fixed_random_seed = no
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 10
+				}
+			}
+		}
+		days_remove = 120
+		remove_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 10
+				}
+			}
+		}
+	}
+	additional_resources_chromium_temp = {
+		cost = 50
+		fixed_random_seed = no
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 10
+				}
+			}
+		}
+		days_remove = 120
+		remove_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 10
+				}
+			}
+		}
+	}
+	additional_resources_oil = {
+		cost = 100
+		fixed_random_seed = no
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 10
+				}
+			}
+		}
+	}
+	additional_resources_aluminum = {
+		cost = 100
+		fixed_random_seed = no
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = aluminum
+					amount = 10
+				}
+			}
+		}
+	}
+	additional_resources_rubber = {
+		cost = 100
+		fixed_random_seed = no
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = rubber
+					amount = 10
+				}
+			}
+		}
+	}
+	additional_resources_tungsten = {
+		cost = 100
+		fixed_random_seed = no
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 10
+				}
+			}
+		}
+	}
+	additional_resources_steel = {
+		cost = 100
+		fixed_random_seed = no
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 10
+				}
+			}
+		}
+	}
+	additional_resources_chromium = {
+		cost = 100
+		fixed_random_seed = no
+		complete_effect = {
+			random_owned_state = {
+				add_resource = {
+					type = chromium
+					amount = 10
+				}
+			}
+		}
+	}
+	additional_resources_manpower = {
+		cost = 100
+		complete_effect = {
+			add_manpower = 100000
+		}
+	}
+}
